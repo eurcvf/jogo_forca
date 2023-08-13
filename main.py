@@ -1,4 +1,5 @@
 from palavraforca import palavras
+import os
 
 letras_usuario = []
 chances = 4
@@ -30,6 +31,7 @@ while True:
 if ganhou:
   print("")
   print(f'Você ganhou o jogo! A palavra era: {palavras}')
+  os.
 else:
   print("")
   print(f'Você perdeu! A palavra era: {palavras}')
